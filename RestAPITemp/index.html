@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+		function repeat(name){
+		document.write(name);
+			while(1){
+				document.getElementById("NAME").innerHTML = "a"
+			}				
+		}
+	</script>
+	</head>
+	<body onload="repeat({{name}});">
+	
+		<p id="NAME">{{name}}</p>
+		<p id="TEMPERATURE">{{temperature}}</p>
+		<p id="LAT">{{lon}}</p>
+		<p id="LON">{{lat}}</p>
+
+		
+		
+		
+</body>
+</html>
